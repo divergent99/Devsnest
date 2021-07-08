@@ -2,37 +2,42 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container
+{
+    position: absolute;
+    background:url("mark.jpg");
+    background-size: 128%;
+    background-position:left;
+    font-size: 20px;
+    width: 300px;
+    height:310px;
+    padding: 10px 10px;
+    border : 2px solid white;
+    box-shadow: 6px 6px black;
+    border-radius: 2em;
+    text-align: center;
+    background-position: center;
+    display: flexbox;
+    left: 380px;    
+    top:220px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container2
+{
+    position: absolute;
+    background:url("Chess.png");
+    background-position: center;
+    background-size:100%;
+    font-size: 20px;
+    width: 300px;
+    height:310px;
+    padding: 10px 10px;
+    border : 2px solid white;
+    box-shadow: 6px 6px black;
+    border-radius: 2em;
+    text-align: center;
+    background-position: center;
+    display: flexbox;
+    left: 880px;    
+    top:220px;
 }
