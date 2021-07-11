@@ -1,0 +1,55 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-size:cover;
+  background-position-x:-60px;
+  background-position-y: -145px;
+  background-image: url(dragonball.jpg);
+}
+
+.container
+{
+    position: absolute;
+    background-image:url(Vegeta.jpg);
+    background-size: 185%;
+    width: 500px;
+    height:510px;
+    padding: 10px 10px;
+    border : 2px solid white;
+    box-shadow: 6px 6px black;
+    border-radius: 2em;
+    text-align: center;
+    background-position: center;
+    display: flexbox;
+    left: 570px;    
+    top:100px;
+    color: white;
+    cursor: pointer;
+}
+
+.App button
+{
+  position: relative;
+  top:400px;
+  width: 90px;
+  background:deepskyblue;
+  border: 2px solid white;
+  box-shadow: 2px 2px black;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.App button:hover
+{
+  opacity: 0.8;
+}
