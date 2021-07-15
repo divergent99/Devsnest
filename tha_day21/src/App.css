@@ -1,0 +1,64 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background-size:cover;
+  background-position-x:-60px;
+  background-position-y: -145px;
+  background:cornflowerblue;
+}
+
+.App button
+{
+  position: relative;
+  width: 90px;
+  background:deepskyblue;
+  border: 2px solid white;
+  border-radius: 2em;
+  box-shadow: 2px 2px black;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.App button:hover
+{
+  opacity: 0.8;
+}
+.App todo
+{
+  display: inline-block;
+  margin: 5px 0px;
+}
+.App input
+{
+  border: 2px solid;
+  box-shadow: 2px 2px black;
+  width: 300px;
+  height: 40px;
+}
+.card
+{
+    display: inline-block;
+    background:darksalmon;
+    background-size: 105%;
+    width: 340px;
+    height:140px;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    border : 2px solid white;
+    box-shadow: 6px 6px black;
+    text-align: center;
+    background-position: center;
+    display: flexbox;
+    color: white;
+    margin-top: 50px;
+}
